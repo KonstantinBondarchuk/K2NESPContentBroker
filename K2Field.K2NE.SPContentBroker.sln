@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K2Field.K2NE.SPContentBroker", "K2Field.K2NE.SPContentBroker\K2Field.K2NE.SPContentBroker.csproj", "{5D45A104-69BD-4B55-A255-9BCC629D62DF}"
 EndProject
@@ -46,6 +46,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "o365", "o365", "{A3230717-A
 		Solution Files\SharePointAssemblies\o365\Microsoft.SharePoint.Client.Taxonomy.dll = Solution Files\SharePointAssemblies\o365\Microsoft.SharePoint.Client.Taxonomy.dll
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "v16.2019", "v16.2019", "{204E1B42-53D9-44F4-92F8-C2BAE516653F}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Files\SharePointAssemblies\v16.2019\Microsoft.SharePoint.Client.dll = Solution Files\SharePointAssemblies\v16.2019\Microsoft.SharePoint.Client.dll
+		Solution Files\SharePointAssemblies\v16.2019\Microsoft.SharePoint.Client.DocumentManagement.dll = Solution Files\SharePointAssemblies\v16.2019\Microsoft.SharePoint.Client.DocumentManagement.dll
+		Solution Files\SharePointAssemblies\v16.2019\Microsoft.SharePoint.Client.Runtime.dll = Solution Files\SharePointAssemblies\v16.2019\Microsoft.SharePoint.Client.Runtime.dll
+		Solution Files\SharePointAssemblies\v16.2019\Microsoft.SharePoint.Client.Taxonomy.dll = Solution Files\SharePointAssemblies\v16.2019\Microsoft.SharePoint.Client.Taxonomy.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,5 +79,9 @@ Global
 		{919B99C2-7173-461C-AF18-A2CF9818F34E} = {A1854C32-187D-48DB-B5DF-BE0BEFB2A90B}
 		{E57C93B1-07B9-4E5D-8E5E-0F53C3A10629} = {A1854C32-187D-48DB-B5DF-BE0BEFB2A90B}
 		{A3230717-AD18-4824-8EE9-BDA37DBCE68B} = {A1854C32-187D-48DB-B5DF-BE0BEFB2A90B}
+		{204E1B42-53D9-44F4-92F8-C2BAE516653F} = {A1854C32-187D-48DB-B5DF-BE0BEFB2A90B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0545C98E-F553-4646-8177-936BF48B5D2B}
 	EndGlobalSection
 EndGlobal
